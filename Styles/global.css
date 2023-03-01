@@ -1,0 +1,172 @@
+/* Main */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+    
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Autres */
+
+.list-unstyled {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Spécifique */
+
+/* header */
+
+.header, .footer{
+    background-color:#12153e;
+    border-bottom: 1px solid #CCC;
+}
+
+.header .logo img{
+    width: 200px;
+    height: auto;
+    margin: 1rem 2rem;
+}
+
+.header li, .footer li {
+    display: inline-flex;
+    align-items: center;
+    margin: 0 3rem;
+
+}
+
+.navbar{
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.navbar a{
+    font-size: 3rem;
+    color: #fff;
+}
+
+.navbar a:hover{
+    font-size: 3.2rem;
+    color: #ffd2d2;
+}
+
+.socials li{
+    margin: 0 1rem;
+}
+
+.icon {
+    background-color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+/* Main */
+
+.main {
+    background-color: #CCC;
+}
+
+.grid__item {
+    background-color: #000000;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.521);
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    margin: 2rem;
+}
+
+#team {
+    height: 483.48px;
+}
+
+#team .card__image {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-image: url(../Images/bg.png);
+    border-bottom: 2px solid #cf7c38;
+}
+
+.card {
+    box-shadow: 0 0 10px rgba(2, 231, 36, 0.1);
+}
+
+#old_rl, #new_rl {
+    height: 400px;
+    width: auto;
+}
+
+#fennec, #octane, #camion, #dominus {
+    height: 200px;
+    width: auto;
+}
+
+#victor, #osman, #thomas {
+    width: 237px;
+    height: 316px;
+    background-color: #12153e;
+    border-radius: 50%;
+}
+
+#old_rl, #camion {
+    border-bottom-left-radius: 10px;
+}
+
+#new_rl, #dominus {
+    border-bottom-right-radius: 10px;
+}
+
+h3 {
+    margin: .3rem
+}
+
+.card__inner {
+    border-bottom: 2px solid #cf7c38;
+}
+
+.grid__item:hover {
+    filter: brightness(50%);
+}
+
+/* footer */
+
+.footer .d-flex {
+    justify-content: space-around;
+}
+
+.copyright {
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    margin: 1rem;
+}
