@@ -257,3 +257,72 @@ h3 {
     filter: none;
     cursor: auto;
 }
+
+/* Ma team */
+
+.mateam .header {
+    color: #fff;
+    justify-content: space-around;
+    font-size: 2rem;
+    margin: 1rem 4rem;
+    border-radius: 10px;
+    background-color: #12153e;
+}
+
+.mateam .grid {
+    display: flex;
+    justify-content: center;
+}
+
+.mateam .grid__item {
+    filter: none;
+    cursor: auto;
+    padding: 0 1.5rem;
+    margin: 1rem;
+}
+
+#logoteam {
+    width: auto;
+    height: 100px;
+    margin: 1rem 3rem;
+    border-radius: 10px;
+}
+
+.center, .stats, .mateam p {
+    margin: 1rem 3rem;
+}
+
+.mateam .title {
+    text-align: center;
+}
+
+.mateam .profil, .mateam .stats {
+    text-align: left;
+    margin: 1.5rem;
+}
+
+.mateam .grid__item img {
+    border-radius: 50%;
+    background-color: #12153e;
+}
+
+.mateam .grid__inner {
+    background-color: #12153e;
+    border-radius: 10px;
+}
+
+.profil_victor {
+    background-image: url(../Images/bg1.jpg);
+}
+
+.profil_osman {
+    background-image: url(../Images/bg2.jpg);
+}
+
+.profil_thomas {
+    background-image: url(../Images/bg3.jpg);
+}
+
+.profil_victor .grid__inner {
+    margin-top: 3.7rem;
+}
