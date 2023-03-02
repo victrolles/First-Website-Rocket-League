@@ -19,7 +19,7 @@ body {
 
 a {
     text-decoration: none;
-    color: #333;
+    color: #fff
 }
 
 /* Autres */
@@ -37,8 +37,7 @@ a {
 }
 
 .grid {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
     justify-content: center;
 }
 
@@ -55,6 +54,14 @@ a {
     width: 200px;
     height: auto;
     margin: 1rem 2rem;
+}
+
+.header .logo img:hover{
+    width: 210px;
+    height: auto;
+    background-color: #cf7c38d4;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 .header li, .footer li {
@@ -76,7 +83,7 @@ a {
 
 .navbar a:hover{
     font-size: 3.2rem;
-    color: #ffd2d2;
+    color: #f1ae76;
 }
 
 .socials li{
@@ -104,6 +111,7 @@ a {
     font-size: 2rem;
     text-align: center;
     margin: 2rem;
+    cursor: pointer;
 }
 
 #team {
@@ -117,6 +125,10 @@ a {
     border-bottom: 2px solid #cf7c38;
 }
 
+#histoire {
+    justify-content: center;
+}
+
 .card {
     box-shadow: 0 0 10px rgba(2, 231, 36, 0.1);
 }
@@ -124,6 +136,10 @@ a {
 #old_rl, #new_rl {
     height: 400px;
     width: auto;
+}
+
+#new_rl {
+    width: 311px
 }
 
 #fennec, #octane, #camion, #dominus {
@@ -169,4 +185,39 @@ h3 {
     font-size: 2rem;
     text-align: center;
     margin: 1rem;
+}
+
+/* histoire.html */
+
+.body_histoire .text {
+    color: #fff;
+    background-color: #373b6c;
+    font-size: 2rem;
+    text-align: center;
+    border-radius: 10px;
+    margin: 1rem 4rem;
+    padding: 1rem;
+    border-bottom: 10px solid #cf7c38;
+}
+
+.part1, .part2, .part3, .part4, .part5{
+    margin: 2rem 0;
+    
+}
+
+.part2 .image, .part4 .image {
+    margin-right: 4rem;
+}
+
+.part3 .image {
+    margin-left: 4rem;
+}
+
+.body_histoire .text p {
+    margin: 0 10rem;
+    line-height: 4rem;
+}
+
+.main {
+    padding: 3rem 0;
 }

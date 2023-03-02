@@ -1,7 +1,7 @@
 <html lang="fr">
 	<head>
 		<meta charset="utf-8">
-		<title>Rocket League</title>
+		<title>Rocket League : Accueil</title>
 		<link rel="shortcut icon" href="./Images/favicon.ico" type="image/x-icon">
 
 		<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,12 +15,14 @@
 		<header class="header">
 			<div class="container d-flex">
 				<div class="logo">
-					<img src="./Images/icon_rl.png" alt="Logo Rocket League">
+					<a href="index.html">
+						<img src="./Images/icon_rl.png" alt="Logo Rocket League">
+					</a>
 				</div>
 				<div class="navbar">
 					<nav>
 						<ul class="menu list-unstyled">
-							<li><a href="histoire.html">Histoire</a></li>
+							<li><a href="histoire.html">L'histoire</a></li>
 							<li><a href="voitures.html">Les voitures</a></li>
 							<li><a href="team.html">Ma team</a></li>
 						</ul>
@@ -51,67 +53,69 @@
 		<main class="main">
 			<div class="container">
 				<div class="grid">
-					<div class="grid__item">
-						<div class="card">
-							<div class="card__inner">
-								<h3 class="card__title">Histoire</h3>
-							</div>
-							<div class="card__image d-flex">
-								<div class="card__left">
-									<img id="old_rl" src="./Images/old_rl.jpg" alt="Old Version Rocket League">
+					<div id="histoire" class="grid__item">
+						<a href="histoire.html">
+							<div class="card">
+								<div class="card__inner">
+									<h3 class="card__title">L'histoire</h3>
 								</div>
-								<div class="card__right">
-									<img id="new_rl" src="./Images/new_rl.jpg" alt="New Version Rocket League">
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="grid">
-					<div class="grid__item">
-						<div class="card">
-							<div class="card__inner">
-								<h3 class="card__title">Les Voitures</h3>
-							</div>
-							<div class="card__image">
-								<div class="card__top d-flex">
+								<div class="card__image d-flex">
 									<div class="card__left">
-										<img id="fennec" src="./Images/fennec_rl.png" alt="Voiture Fennec Rocket League">
-									</div>
-									<div class="card__centerleft">
-										<img id="octane" src="./Images/octane_rl.jpg" alt="Voiture Octane Rocket League">
-									</div>
-								</div>
-								<div class="card__bottom d-flex">
-									<div class="card__centerright">
-										<img id="camion" src="./Images/camion_rl.jpg" alt="Voiture camion Rocket League">
+										<img id="old_rl" src="./Images/old_rl.jpg" alt="Old Version Rocket League">
 									</div>
 									<div class="card__right">
-										<img id="dominus" src="./Images/dominus_rl.png" alt="Voiture Dominus Rocket League">
+										<img id="new_rl" src="./Images/new_rl.jpg" alt="New Version Rocket League">
 									</div>
 								</div>
 							</div>
-						</div>
+						</a>
 					</div>
-				</div>
-				<div class="grid">
+					<div class="grid__item">
+						<a href="voitures.html">
+							<div class="card">
+								<div class="card__inner">
+									<h3 class="card__title">Les Voitures</h3>
+								</div>
+								<div class="card__image">
+									<div class="card__top d-flex">
+										<div class="card__left">
+											<img id="fennec" src="./Images/fennec_rl.png" alt="Voiture Fennec Rocket League">
+										</div>
+										<div class="card__centerleft">
+											<img id="octane" src="./Images/octane_rl.jpg" alt="Voiture Octane Rocket League">
+										</div>
+									</div>
+									<div class="card__bottom d-flex">
+										<div class="card__centerright">
+											<img id="camion" src="./Images/camion_rl.jpg" alt="Voiture camion Rocket League">
+										</div>
+										<div class="card__right">
+											<img id="dominus" src="./Images/dominus_rl.png" alt="Voiture Dominus Rocket League">
+										</div>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
 					<div class="grid__item" id="team">
-						<div class="card">
-							<div class="card__inner">
-								<h3 class="card__title">Ma Team</h3>
+						<a href="team.html">
+							<div class="card">
+								<div class="card__inner">
+									<h3 class="card__title">Ma Team</h3>
+								</div>
+								<div class="card__image d-flex">
+									<div class="card__left">
+										<img id="victor" src="./Images/victor.png" alt="Photo de Profil Victor Goudal">
+									</div>
+									<div class="card__center">
+										<img id="osman" src="./Images/osman.png" alt="Photo de Profil Osman Gaygusuz">
+									</div>
+									<div class="card__right">
+										<img id="thomas" src="./Images/thomas.png" alt="Photo de Profil Thomas Forest">
+									</div>
+								</div>
 							</div>
-							<div class="card__image d-flex">
-								<div class="card__left">
-									<img id="victor" src="./Images/victor.png" alt="Photo de Profil Victor Goudal">
-								</div>
-								<div class="card__center">
-									<img id="osman" src="./Images/osman.png" alt="Photo de Profil Osman Gaygusuz">
-								</div>
-								<div class="card__right">
-									<img id="thomas" src="./Images/thomas.png" alt="Photo de Profil Thomas Forest">
-								</div>
-							</div>
-						</div>
+						</a>
 					</div>
 				</div>
 			</div>
