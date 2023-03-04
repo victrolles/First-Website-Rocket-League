@@ -4,13 +4,13 @@ Site web fait en 2 jours pour un matière scolaire. Le sujet était au choix mai
 Il est composé de 4 pages : l'accueil, l'histoire de RL, les voitures de RL, ma team de jeu.
 
 ## L'accueil :
-![image](https://user-images.githubusercontent.com/95492416/222530498-97b35f43-97e7-4d20-bfa3-bb27bb248056.png)
+![image](https://user-images.githubusercontent.com/95492416/222893697-43d18fc5-3ae7-45fa-9731-c325c7bbdb61.png)
 
 ## L'histoire de Rocket League :(les images sont des vidéos en réalité)
-![image](https://user-images.githubusercontent.com/95492416/222530691-16b9ef01-5678-45b2-b6ce-1307293ddd4c.png)
+![image](https://user-images.githubusercontent.com/95492416/222893717-3b9d602d-32ba-4f5e-8058-a6ea1d7cee2c.png)
 
 ## Les Voitures de Rocket League :
-![image](https://user-images.githubusercontent.com/95492416/222530974-7a714e03-f3ee-486d-b772-9c11d76ec849.png)
+![image](https://user-images.githubusercontent.com/95492416/222893727-8f758dc1-78e7-4ab4-b1fb-2c58d5f790d1.png)
 
 ## Ma team :
-![image](https://user-images.githubusercontent.com/95492416/222531178-60567611-4236-41b3-9e19-60a9d5e74c0c.png)
+![image](https://user-images.githubusercontent.com/95492416/222893745-078890cd-a0ec-48c0-829e-c2b75b03072e.png)
