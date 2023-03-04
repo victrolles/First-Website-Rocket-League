@@ -1,49 +1,53 @@
-/* Main */
+/*
+    Fonction globale du site
+*/
 
 * {
-    box-sizing: border-box;
+    box-sizing: border-box;             /* permet de définir la largeur et la hauteur d'un élément en incluant le padding et la bordure */
 }
 
 html {
-    font-size: 62.5%;
+    font-size: 62.5%;                   /* 1rem = 10px */
 }
 
 body {
     color: #333;
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.6rem;
+    font-family: 'Poppins', sans-serif; /* change la police de base pour mettre Poppins*/
+    font-size: 1.6rem;                  /* 1.6rem = 16px : taille standard Google Chrome*/
     
-    max-width: 1500px;
+    max-width: 1500px;                  /* limite la largeur du site à 1500px */
     margin: 0 auto;
 }
 
-a {
+a {                                     /* change la couleur des liens et enlève la soulignement du lien*/   
     text-decoration: none;
     color: #fff
 }
 
-/* Autres */
+/* Classes globales */
 
-.list-unstyled {
+.list-unstyled {                        /* enlève les puces des listes et reset le padding /margin*/
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-.d-flex {
+.d-flex {                               /* permet d'appliquer flex à un bloc (div) */
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.grid {
+.grid {                                 /* permet d'appliquer grid à un bloc (div) */
     display: grid;
     justify-content: center;
 }
 
-/* Spécifique */
+/*
+    Fonction spécifique du site
+*/
 
-/* header */
+/* Header */
 
 .header, .footer{
     background-color:#12153e;
@@ -64,14 +68,14 @@ a {
     cursor: pointer;
 }
 
-.header li, .footer li {
+.header li, .footer li {                /* Permet des mettres les sous-division en ligne en mode flex*/
     display: inline-flex;
     align-items: center;
     margin: 0 3rem;
 
 }
 
-.navbar{
+.navbar{                                /* Permet de mettre les liens en ligne en mode flex*/
     display: inline-flex;
     justify-content: space-around;
 }
@@ -81,7 +85,7 @@ a {
     color: #fff;
 }
 
-.navbar a:hover{
+.navbar a:hover{                        /* Permet de changer la couleur du lien au survol de la souris*/
     font-size: 3.2rem;
     color: #f1ae76;
 }
@@ -97,7 +101,7 @@ a {
     border-radius: 50%;
 }
 
-/* Main */
+/* Main : page d'accueil */
 
 .main {
 
@@ -173,7 +177,7 @@ h3 {
 }
 
 .grid__item:hover {
-    filter: brightness(50%);
+    filter: brightness(50%);        /* Permet de rendre sombre une "card" quand on passe la souris dessus*/
 }
 
 /* footer */
@@ -189,7 +193,7 @@ h3 {
     margin: 1rem;
 }
 
-/* histoire.html */
+/* Main : page d'Histoire */
 
 .body_histoire .text {
     color: #fff;
@@ -224,7 +228,7 @@ h3 {
     padding: 3rem 0;
 }
 
-/* voitures */
+/* Main : page des voitures */
 
 .cars .grid {
     display: grid;
@@ -244,7 +248,6 @@ h3 {
     justify-content: space-around;
 }
 
-/*#373b6c*/
 .cars img {
     border-left: 5px solid #373b6c;
     border-bottom: 5px solid #373b6c;
@@ -261,7 +264,7 @@ h3 {
     cursor: auto;
 }
 
-/* Ma team */
+/* Main : page de ma team */
 
 .mateam .header {
     color: #fff;
